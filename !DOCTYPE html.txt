@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Catering Company</title>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+      <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+      <style>
+          /* Custom styles for header to ensure it stands out */
+          .header {
+              background-image: url('IMG_3689.JPG');
+              background-size: cover; /* Cover the entire header */
+              background-position: center top; /* Center the image at the top */
+              background-repeat: no-repeat; /* Prevent image from repeating */
+              min-height: 400px; /* Set a minimum height for the header */
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start; /* Align content to the start */
+              align-items: center;
+              padding-top: 2rem; /* Add some padding at the top */
+              text-align: center;
+              color: white; /* Set default text color to white */
+          }
+          .header h1 {
+              font-family: 'Inter', sans-serif;
+              font-size: 2.5rem;
+              font-weight: bold;
+              margin-top: 1rem; /* Add some space above the text */
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          .header h1 img {
+              max-height: 50px; /* Adjust the height of the logo as needed */
+              margin-right: 10px; /* Add spacing between the logo and text */
+              vertical-align: middle; /* Align logo vertically within the heading */
+          }
+          .header p {
+              font-family: 'Inter', sans-serif;
+              font-size: 1.2rem;
+          }
+          .nav-link {
+              font-family: 'Inter', sans-serif;
+          }
+          .section-title {
+              font-family: 'Inter', sans-serif;
+          }
+          .menu-item-title {
+               font-family: 'Inter', sans-serif;
+          }
+          .menu-item-description{
+              font-family: 'Inter', sans-serif;
+          }
+
+      </style>
+ </head>
+ <body class="bg-gray-100 font-inter">
+      <header class="header text-white py-6 shadow-md sticky top-0 z-10 rounded-md">
+          <div class="container mx-auto px-4">
+              <div class="flex flex-col md:flex-row justify-between items-center">
+                  <h1 class="text-3xl font-bold mb-4 md:mb-0">
+                      <img src="IMG_3691.JPG" alt="Company Logo">
+                      Chick and Grill
+                  </h1>
+                  <nav class="flex space-x-4">
+                      <a href="#home" class="nav-link hover:text-gray-200 transition duration-300">Home</a>
+                      <a href="#menu" class="nav-link hover:text-gray-200 transition duration-300">Menu</a>
+                      <a href="#about" class="nav-link hover:text-gray-200 transition duration-300">About Us</a>
+                      <a href="#contact" class="nav-link hover:text-gray-200 transition duration-300">Contact</a>
+                  </nav>
+              </div>
+          </div>
+      </header>
+
+      <section id="home" class="py-16 bg-gray-100 text-gray-800 text-center">
+          <div class="container mx-auto
